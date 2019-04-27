@@ -87,7 +87,6 @@ mkdir -p out/Headless && \
   echo 'blink_symbol_level = 0' >> out/Headless/args.gn && \
   echo 'symbol_level = 0' >> out/Headless/args.gn && \
   echo 'is_component_build = false' >> out/Headless/args.gn && \
-  echo 'remove_webcore_debug_symbols = true' >> out/Headless/args.gn && \
   echo 'enable_nacl = false' >> out/Headless/args.gn && \
   gn gen out/Headless
 
